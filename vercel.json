@@ -1,8 +1,0 @@
-{
-  "version": 2,
-  "functions": { "api/**/*.js": { "runtime": "nodejs20.x" } },
-  "routes": [
-    { "src": "/fpl/bootstrap", "dest": "/api/fpl/bootstrap.js" },
-    { "src": "/fpl/fixtures",  "dest": "/api/fpl/fixtures.js" }
-  ]
-}
